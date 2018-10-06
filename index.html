@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+	<title> ROGER' </title>
+	
+	<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="js/ajSlider.js"></script>	
+
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+<script>
+$(document).ready(function() {
+    $('#ajSlider').ajSlider(3000,{
+		"width":"932px",//width of slider
+		"height":"332px",//height of slider
+		"textPosition":"40%",//position of text from top
+		"textSize":"40px",//font size of the text
+		});
+});
+</script>	
+</head>
+<body>
+<section id="contenedor">
+  <header>
+    <section id="logo">
+    	<img src="C:\Users\Eduardo\Desktop\Pagina Roger\images\logoroger.png"/>
+    </section>
+    <nav id="topmenu">
+    	<ul>
+    		<li class="active"><a href="index.html">Inicio</a></li>
+    		<li><a href="empresa.html">Empresa</a></li>
+    		<li><a href="#">instrumetos</a>
+    			<ul>
+    				<li><a href="guitarras.html">Guitarras</a></li>
+    				<li><a href="bajos.html">Bajos</a></li>
+    			</ul>
+    		</li>
+    		<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="galeria.html">Galeria</a></li>
+    	</ul>
+    </nav>
+    <!-- <div style="clear: both;"></div> -->
+  </header>
+  
+  	<section id="slider">
+	<div id="ajSlider" style="Text-Shadow: 3px 3px #000000; font-family: 'sans-serif'">
+	<img src="C:\Users\Eduardo\Desktop\Pagina Roger\images\jazzbass.png" width="1600" height="1000" />
+    <img src="C:\Users\Eduardo\Desktop\Pagina Roger\images\guitarra.png" width="1600" height="1000" />
+
+	<a>FENDER JAZZ BASS</a>
+    <a>FENDER STRATOCASTER</a>
+    
+</div>
+  
+  <footer>
+  	<section id="mapa">
+  		<article
+  		<article class="seccion-mapa">
+  			<h3><a href="contacto.html">Contacto</a></h3>
+  			<p>Oficina: (921) 164 5472</p>
+  			<p>Envíanos un <a href="contacto.html">comentario</a>.</p>
+  		</article>
+  		<article class="seccion-mapa">
+  			<h3>Síguenos</h3>
+  			<p>Síguenos en nuestras redes sociales:</p>
+  	  		<img class="social" src="images/social/facebook.png" alt="Facebook" />
+  	  		<img class="social" src="images/social/twitter.png" alt="Twitter" />
+  	  		<img class="social" src="images/social/skype.png" alt="Skype" />
+  	  		<img class="social" src="images/social/linked.png" alt="LinkedIn" />
+  		</article>
+  	</section>
+  	
+  	<section class="derechos">&copy; ROGER MUSIC 2018. Todos los derechos reservados. Diseñado por <a href="http://www.quetzalit.com" target="_blank">ROGELIO.</a></section>
+  </footer>
+  </section>
+</body>
+</html>
